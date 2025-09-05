@@ -1,8 +1,11 @@
+print ("bienvenido al menu de la calculadora") 
 def calcualdora():
-     print("3.multiplicacion")
-     print("4.division")
+        print("digite 1 si desea sumar")
+        print("digite 2 si desea restar")
+        print("digite 3 si desea multiplicacion")
+        print("digite 4 se desea dividir")
 opcion = (input ("Escoja una opcion: "))
-if opcion in ["3","4"]:
+if opcion in ["1","2"."3","4"]:
         if opcion == "3":
              
             num1=float(input("ingrese su primer numero: "))
